@@ -23,6 +23,7 @@
         background-color: rgb(231, 83, 73);
         display: flex;
         justify-content: space-between;
+        background-image: linear-gradient(to right, red, rgb(231, 81, 22), rgb(194, 191, 20));
     }
     
     .header_titulo{
@@ -304,6 +305,8 @@
     margin: 10px;
 }
 
+/* Contactanos */
+
 
 /* Mobile */
 @media screen and (max-width:768px) {
@@ -449,3 +452,13 @@
 
 
 
+
+
+
+
+
+nav{
+    width: 100vw;
+    color:rgb(89, 177, 180);
+
+}
