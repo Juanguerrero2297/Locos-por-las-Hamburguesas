@@ -1,6 +1,6 @@
-
+/* 
 /* Desktop */
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     *{
         margin:0;
         padding:0;
@@ -18,7 +18,7 @@
             overflow-x:hidden;
             overflow-y: hidden;
     }
-    header{
+    /* header{
         grid-area: header;
         background-color: rgb(231, 83, 73);
         display: flex;
@@ -70,9 +70,9 @@
     .producto_img{
         height: 40px;
         width: 40px;
-    }
+    } */
     
-    .producto1{
+    /* .producto1{
         grid-area: producto1;
         background-color: beige;
     }
@@ -134,7 +134,7 @@
 }
 
 /* Tablet */
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){
     *{
         margin:0;
         padding:0;
@@ -268,7 +268,7 @@
 
 /* otros */
 
-.container-otros{
+/* .container-otros{
     display: grid;
         grid-template-areas: 
         "lomitos"
@@ -303,17 +303,17 @@
     display: flex;
     justify-content: center;
     margin: 10px;
-}
+} */
 
 /* Contactanos */
 
 
-/* Mobile */
-@media screen and (max-width:768px) {
-    *{
+/* Mobile
+ @media screen and (max-width:768px) {
+    {
         margin:0;
         padding:0;
-    }
+    } */
     /* .container{
         height: 100vh;
         display: grid;
@@ -329,7 +329,7 @@
             grid-template-rows: 15% 10% 10% 10% 10% 20% 20%;
             overflow-x:hidden;
     } */
-    .container{
+    /* .container{
         height: 100vh;
     }
     header{
@@ -447,18 +447,37 @@
     
     footer{
        display: none;
-    }
-}
+    } */
 
 
 
 
-
-
-
+ */
 
 nav{
     width: 100vw;
     color:rgb(89, 177, 180);
+}
 
+.container{
+    display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+#Simple{
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+.w-100{
+    background-color: rgb(45, 125, 174);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    bottom: 0;
 }
