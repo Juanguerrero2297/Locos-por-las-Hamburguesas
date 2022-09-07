@@ -12,7 +12,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Locos por las Hamburguesas</a>
+              <img class="logo" src="./imagenes e iconos/icono-titulo.jpg" alt="icono-titulo">
+              <a class="navbar-brand" href="./index.html">Locos por las Hamburguesas</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -22,7 +23,7 @@
                     <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./otros.html">otros</a>
+                    <a class="nav-link" href="./otros.html">Otros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./combos.html">Combos</a>
@@ -44,8 +45,8 @@
     <section>
       <div class="container">
         <div class="row">
-          <article>
-            <div class="card mb-3" style="max-width: 540px;">
+          <article class="col-12 col-xl-6">
+            <div class="card mb-3" style="max-width: 540px;" id="card">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src="./imagenes e iconos/hamburguesa simple.jpg" class="img-fluid rounded-start" alt="hamburguesa-simple">
@@ -56,14 +57,13 @@
                     <p class="card-text">Hamburguesa Simple, con lechuga, tomate, pepino, mayonesa</p>
                     <p class="card-text"><small class="text-muted">600ARS</small></p>
                   </div>
+                  <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
                 </div>
               </div>
             </div>
           </article>
-          <!-- <div class="col-6 col-sm-3" id="Simple">Hamburguesa Simple</div> -->
-          <article>
-            <!-- <div class="col-6 col-sm-3">Hamburguesa Doble</div> -->
-            <div class="card mb-3" style="max-width: 540px;">
+          <article class="col-12 col-xl-6">
+            <div class="card mb-3" style="max-width: 540px;" id="card">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src="./imagenes e iconos/hamburguesa-doble.jpg" class="img-fluid rounded-start" alt="hamburguesa-doble">
@@ -74,12 +74,13 @@
                     <p class="card-text">Hamburguesa Doble Carne, con lechuga, tomate, pepino, mayonesa</p>
                     <p class="card-text"><small class="text-muted">900ARS</small></p>
                   </div>
+                  <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
                 </div>
               </div>
             </div>
           </article>
-          <article>
-            <div class="card mb-3" style="max-width: 540px;">
+          <article class="col-12 col-xl-6">
+            <div class="card mb-3" style="max-width: 540px;" id="card">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src="./imagenes e iconos/hamburguesa-triple.jpg" class="img-fluid rounded-start" alt="hamburguesa-triple">
@@ -90,12 +91,13 @@
                     <p class="card-text">Hamburguesa Triple Carne, con lechuga, tomate, pepino, mayonesa, papas fritas y gaseosa</p>
                     <p class="card-text"><small class="text-muted">1100ARS</small></p>
                   </div>
+                  <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
                 </div>
               </div>
             </div>
           </article>
-          <article>
-            <div class="card mb-3" style="max-width: 540px;">
+          <article class="col-12 col-xl-6">
+            <div class="card mb-3" style="max-width: 540px;" id="card">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img src="./imagenes e iconos/hamburguesa-cuadruple.jpg" class="img-fluid rounded-start" alt="hamburguesa-cuadruple">
@@ -106,32 +108,32 @@
                     <p class="card-text">Hamburguesa 4 carnes, con lechuga, tomate, pepino, mayonesa, papas fritas y gaseosa</p>
                     <p class="card-text"><small class="text-muted">1300ARS</small></p>
                   </div>
+                  <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
                 </div>
               </div>
             </div>
           </article>      
-          <!-- Force next columns to break to new line -->                
-          <!-- <div class="col-6 col-sm-3">hamburguesa triple</div>
-          <div class="col-6 col-sm-3">hamburguesa cuadruple</div> -->
-        </div>
+        
       </div>
     </section>    
-    
-    <div class="w-100">
-      <footer>
-        <div>
-            Todos los derechos reservados
-        </div>
-        <div class="redes">
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>telefono</p> 
-        </div>
-      </footer>
+<div class="Footer">
+  <div class="row">
+    <div class="col">
+      <h1>About us</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nemo minus placeat tempora enim, iste et temporibus consectetur laboriosam accusantium magnam commodi ullam iusto velit ipsa, dolor est impedit! Quae.</p>
     </div>
-    
-
+    <div class="col">
+      <h2>Siguenos</h2>
+      <img class="redes-img" src="./imagenes e iconos/facebook.png" alt="facebook">
+      <img class="redes-img" src="./imagenes e iconos/instagram.png" alt="instagram">
     </div>
+  </div>
+  <div class="row-derechos">
+    <div class="col">
+      <b>Todos los derechos reservados/2022</b>
+    </div>
+  </div>
+</div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
