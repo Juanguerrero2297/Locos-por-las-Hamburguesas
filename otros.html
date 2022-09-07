@@ -9,67 +9,115 @@
     <title>Locos por las Hamburguesas/Otros</title>
 </head>
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Locos por las Hamburguesas</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./otros.html">otros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./combos.html">Combos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./sucursales.html">Sucursales</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contactanos.html">Contactanos</a>
-                      </li>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-            </nav>
-            </div>
-        </header>
-        <div class="container-otros">    
-            <article class="lomitos">
-                <div>
-                    <img src="./imagenes e iconos/lomitos.jpg">
-                </div>
-            </article>
-            <article class="combos">
-                <div>
-                    <img src="./imagenes e iconos/otros.jpg">
-                </div>
-            </article>
-            <article class="papas-fritas">
-                <div>
-                    <img src="./imagenes e iconos/otros2.jpg">
-                </div>
-            </article>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <img class="logo" src="./imagenes e iconos/icono-titulo.jpg" alt="icono-titulo">
+        <a class="navbar-brand" href="./index.html">Locos por las Hamburguesas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./otros.html">Otros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./combos.html">Combos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contactanos.html">Contactanos</a>
+            </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        <footer>
-            <div>
-                Todos los derechos reservados
+      </div>
+    </nav>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row">
+        <article class="col-12 col-xl-6">
+          <div class="card mb-3" style="max-width: 540px;" id="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./imagenes e iconos/lomitos.jpg" class="img-fluid rounded-start" alt="lomitos">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Lomitos</h5>
+                  <p class="card-text">lomito de carne, con lechuga, tomate, huevo,jamon y queso</p>
+                  <p class="card-text"><small class="text-muted">800ARS</small></p>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
+              </div>
             </div>
-            <div class="redes">
-                <p>Facebook</p>
-                <p>Instagram</p>
-                <p>telefono</p> 
+          </div>
+        </article>
+        <article class="col-12 col-xl-6">
+          <div class="card mb-3" style="max-width: 540px;" id="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./imagenes e iconos/otros2.jpg" class="img-fluid rounded-start" alt="papas-fritas">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Papas Fritas</h5>
+                  <p class="card-text">Cono de Papas</p>
+                  <p class="card-text"><small class="text-muted">350ARS</small></p>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
+              </div>
             </div>
-        </footer>
-    </div>   
+          </div>
+        </article>
+        <article class="col-12 col-xl-6">
+          <div class="card mb-3" style="max-width: 540px;" id="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./imagenes e iconos/promo.jpg" class="img-fluid rounded-start" alt="promo">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Combo</h5>
+                  <p class="card-text">3 hamburguesas doble, con papas y gaseosa</p>
+                  <p class="card-text"><small class="text-muted">2900ARS</small></p>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </article>      
+      </div>
+    </div>
+  </section>    
+  <div class="Footer">
+    <div class="row">
+      <div class="col">
+        <h1>About us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nemo minus placeat tempora enim, iste et temporibus consectetur laboriosam accusantium magnam commodi ullam iusto velit ipsa, dolor est impedit! Quae.</p>
+      </div>
+      <div class="col">
+        <h2>Siguenos</h2>
+        <img class="redes-img" src="./imagenes e iconos/facebook.png" alt="facebook">
+        <img class="redes-img" src="./imagenes e iconos/instagram.png" alt="instagram">
+      </div>
+    </div>
+    <div class="row-derechos">
+      <div class="col">
+        <b>Todos los derechos reservados/2022</b>
+      </div>
+    </div>
+  </div>  
     <script src="./js/bootstrap.min.js"></script> 
 </body>
 </html>
