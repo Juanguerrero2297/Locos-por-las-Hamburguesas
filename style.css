@@ -459,6 +459,10 @@ nav{
     color:rgb(89, 177, 180);
 }
 
+.nav-item :hover{
+    background-color: rgb(235, 204, 27);
+}
+
 .container{
     display: flex;
 }
