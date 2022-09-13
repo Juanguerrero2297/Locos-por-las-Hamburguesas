@@ -1,0 +1,42 @@
+/* nav */
+nav {
+  width: 100vw;
+  color: #59b1b4; }
+  nav .nav-item :hover {
+    background-color: #d1b519; }
+  nav .container {
+    display: flex; }
+
+/* section */
+#carrousel {
+  background-color: rgba(44, 46, 46, 0.89);
+  height: 300px; }
+
+section {
+  background-color: beige; }
+  section .container {
+    margin-top: 150px; }
+    section .container article .img-fluid {
+      align-items: center; }
+    section .container article #productos {
+      margin-top: 10px; }
+      section .container article #productos #card {
+        border-color: black; }
+
+.footer {
+  background-color: #36b3d0;
+  border-style: groove;
+  border-color: black;
+  border-radius: 5px; }
+  .footer .redes-img {
+    width: 30px;
+    height: 30px; }
+  .footer p {
+    color: white; }
+  .footer .row-derechos {
+    display: flex;
+    text-align: center;
+    background-color: rgba(14, 14, 14, 0.84);
+    color: white;
+    border-style: groove;
+    border-color: black; }
