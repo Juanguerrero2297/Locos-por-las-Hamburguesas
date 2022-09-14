@@ -1,29 +1,33 @@
 /* section */
-
-#carrousel{
-    background-color: rgba(44, 46, 46, 0.89);
-    height: 300px;
-}
-section{
+section {
     background-color: beige;
-    .container{
+    
+    #carrousel {
+        background-color: rgba(44, 46, 46, 0.89);
+        height: 300px;
+    }
+
+    .container {
         margin-top: 150px;
 
-        article{
-            
-            .img-fluid{
+        #productos {
+            margin-top: 10px;
+        }
+
+        article {
+
+            .img-fluid {
                 align-items: center;
             }
-            
-            #productos{
-                margin-top: 10px;
+
+            #card {
+                border-color: black;
                 
-                #card{
-                    border-color: black;
-                    
+                &:hover{
+                    transform: scale(1.2);
                 }
+
             }
-            
         }
     }
 }

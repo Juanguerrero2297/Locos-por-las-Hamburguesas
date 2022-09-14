@@ -1,25 +1,23 @@
 /* nav */
-nav{
-    width: 100vw;
-    color:rgb(89, 177, 180);
+header{
 
-    .nav-item :hover{
-        background-color: rgb(209, 181, 25);
-    }
-
-    .container{
-        display: flex;
-    }
-
+    nav {
+        width: 100vw;
+        color: rgb(89, 177, 180);
+        
     
+        .nav-item {
+            color: white;
+    
+            &:hover {
+                background-color: rgb(209, 181, 25);
+            }
+        }
+    
+        .container {
+            display: flex;
+        }
+    
+    
+    }
 }
-
-// Footer
-
-
-
-
-
-
-
-

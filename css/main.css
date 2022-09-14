@@ -1,27 +1,30 @@
 /* nav */
-nav {
+header nav {
   width: 100vw;
   color: #59b1b4; }
-  nav .nav-item :hover {
-    background-color: #d1b519; }
-  nav .container {
+  header nav .nav-item {
+    color: white; }
+    header nav .nav-item:hover {
+      background-color: #d1b519; }
+  header nav .container {
     display: flex; }
 
 /* section */
-#carrousel {
-  background-color: rgba(44, 46, 46, 0.89);
-  height: 300px; }
-
 section {
   background-color: beige; }
+  section #carrousel {
+    background-color: rgba(44, 46, 46, 0.89);
+    height: 300px; }
   section .container {
     margin-top: 150px; }
+    section .container #productos {
+      margin-top: 10px; }
     section .container article .img-fluid {
       align-items: center; }
-    section .container article #productos {
-      margin-top: 10px; }
-      section .container article #productos #card {
-        border-color: black; }
+    section .container article #card {
+      border-color: black; }
+      section .container article #card:hover {
+        transform: scale(1.2); }
 
 .footer {
   background-color: #36b3d0;
