@@ -10,7 +10,8 @@
     }
 
     p {
-        color: white;
+        color: $color-secundario;
+        font-size: map-get ($font-sz ,$font-xs );
     }
 
     .row-derechos {

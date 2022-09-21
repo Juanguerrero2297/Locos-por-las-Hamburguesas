@@ -1,14 +1,3 @@
-/* nav */
-header nav {
-  width: 100vw;
-  color: #59b1b4; }
-  header nav .nav-item {
-    color: white; }
-    header nav .nav-item:hover {
-      background-color: #d1b519; }
-  header nav .container {
-    display: flex; }
-
 /* section */
 section {
   background-color: beige; }
@@ -43,3 +32,13 @@ section {
     color: white;
     border-style: groove;
     border-color: black; }
+
+header nav {
+  width: 100vw;
+  color: #59b1b4; }
+  header nav .nav-item {
+    color: white; }
+    header nav .nav-item:hover {
+      background-color: #d1b519; }
+  header nav .container {
+    display: flex; }
